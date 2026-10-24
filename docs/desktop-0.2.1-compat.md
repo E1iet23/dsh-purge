@@ -1,7 +1,7 @@
 # DSH Desktop 0.12.1 / Harness 0.2.1-rc.2 compatibility
 
 This fork retains the 1.1.71 features, UI, skills and prompt assets. The local
-version is `1.1.71-compat.0.2.1-rc.2.4` (validated compatibility backport).
+version is `2.0.0` (validated compatibility backport).
 
 ## Desktop installation
 
@@ -30,7 +30,7 @@ archive instead of retaining a mutable `link:` installation:
 ```powershell
 npm pack --ignore-scripts
 # Use the .tgz filename printed by npm:
-dsh plugin --profile web add "./dsh-purge-1.1.71-compat.0.2.1-rc.2.4.tgz"
+dsh plugin --profile web add "./dsh-purge-2.0.0.tgz"
 ```
 
 ## Additional compatibility repairs
