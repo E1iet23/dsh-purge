@@ -48,7 +48,7 @@ dsh plugin --profile web add "./dsh-purge-1.1.71-compat.0.2.1-rc.2.1.tgz"
 
 ## Validation
 
-Run `node --test scripts/test-desktop-compat.mjs` for migration scoping, literal
+Run `node --test scripts/check-desktop-compat.mjs` for migration scoping, literal
 prompt preservation, mixed newlines, backup/idempotence, ownership, loading
 order and isolated plugin startup tests.
 
